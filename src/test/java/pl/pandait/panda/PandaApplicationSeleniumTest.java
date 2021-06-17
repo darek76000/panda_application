@@ -39,7 +39,7 @@ public class PandaApplicationSeleniumTest {
         // driver.get(String.format("http://ubuntucompose:%s/", port));
         
         // Alternatywnie, gdyby DNS dockera nie komunikował się poprawnie
-        driver.get(String.format("http://jenkins_slave:%s", port));
+        driver.get(String.format("http://jenkins-slave:%s", port));
 
         //Czekamy 2 sekundy
         Thread.sleep(2000);
