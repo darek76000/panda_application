@@ -1,2 +1,2 @@
 aws_key_name = "panda_kurs"
-ssh_key_path="~/Downloads/panda_kurs.pem"
+ssh_key_path="/home/panda/terraform/panda_kurs.pem"
